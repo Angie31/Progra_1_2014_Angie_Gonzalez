@@ -11,7 +11,7 @@ package atributes;
  * @author Angie
  */
 public class Account {
-    //Variable
+    //Variables
     private  double saldoInicial;
     private boolean hayError;
     //Metodo constructor 
