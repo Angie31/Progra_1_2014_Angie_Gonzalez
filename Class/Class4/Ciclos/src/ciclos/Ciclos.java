@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3b8cefb30fd6d4913220723d8cbf3011794302a5
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -104,6 +107,7 @@ public class Ciclos {
 }
     
 
+<<<<<<< HEAD
 =======
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -211,3 +215,5 @@ public class Ciclos {
     
 
 >>>>>>> parent of 6acba1b... deleted
+=======
+>>>>>>> 3b8cefb30fd6d4913220723d8cbf3011794302a5

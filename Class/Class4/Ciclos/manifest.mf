@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Manifest-Version: 1.0
 X-COMMENT: Main-Class will be added automatically by build
 
@@ -7,3 +8,8 @@ Manifest-Version: 1.0
 X-COMMENT: Main-Class will be added automatically by build
 
 >>>>>>> parent of 6acba1b... deleted
+=======
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+
+>>>>>>> 3b8cefb30fd6d4913220723d8cbf3011794302a5
