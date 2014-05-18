@@ -19,47 +19,41 @@ public class Ciclos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         /**
-         * Ciclo For 
+         * Ciclo for
          * 
          */
         
         int cantidad;
-        int suma=0;
+        int suma = 0;
         
         Scanner teclado=new Scanner(System.in);
         
-        System.out.println("Digite el numero de impresiones que desea ver" );
-        
+        System.out.println("Digite el numero de impresiones que desea ver");
         
         cantidad=Integer.parseInt(teclado.nextLine());
         
-        System.out.println("\n");
+        System.out.print("\n");
         
-        for (int i = 0; i <= cantidad; i++) 
+        for (int i = 0; i <= cantidad; i++) {
+            System.out.println(i);
+        }   
+        
+        System.out.print("\n");
+        System.out.println("Inverso");
+        System.out.print("\n");
+        for (int i = cantidad; i>=  0; i--)
         {
-        
-            System.out.println(i);   
+            System.out.println(i);
         }
         
-        System.out.println("\n");
-        
-        System.out.println("Inverso" );
-        
-        System.out.println("\n");
-        
-        for (int i = cantidad; i >= 0; i--) 
-        {
-        
-            System.out.println(i);  
-        }
         
         /**
          * Ciclo While
          * 
          */
         
-        System.out.println("\n");
         while(suma<=cantidad)
         {
             System.out.print(suma);
@@ -67,39 +61,38 @@ public class Ciclos {
             suma=suma+1;
         }
         
-        System.out.println("\n");
-        
+        System.out.print("\n");
         suma=cantidad;
-         while(suma>=0)
+        while(suma>=0)
         {
             System.out.print(suma);
             System.out.print(" - ");
             suma=suma-1;
-        }
-         
+        } 
+        
+                
         /**
-         * Do while 
+         * Ciclo  do While
          * 
          */
-         System.out.println("\n");
-         suma=0;
+        
+        System.out.print("\n");
+        
+        suma=0;
         do{
             System.out.print(suma);
-            System.out.print(" - ");
+            System.out.print(" _ ");
             suma=suma+1;
         }while(suma<=cantidad);
         
-        System.out.println("\n");
+        System.out.print("\n");
+        suma=cantidad;
         
-         suma=cantidad;
-         do{
+        do{
             System.out.print(suma);
-            System.out.print(" - ");
+            System.out.print(" _ ");
             suma=suma-1;
-        }while(suma>=0);
+          }while(suma>=0);
         
-        
-   }
+    }    
 }
-    
-
