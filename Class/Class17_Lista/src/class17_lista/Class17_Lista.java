@@ -19,10 +19,16 @@ public class Class17_Lista {
         // TODO code application logic here
         
         Lista oLista=new Lista();
+        String dato="";
+        String cuentaBancaria="";
         oLista.Insertar("Efren","200111-4");
         oLista.Insertar("Joss","366111-5");
         oLista.Insertar("Navas","774455-8");
         oLista.Impirmir();
+        System.out.println("Elimina el ultimo elemento");
+        oLista.EliminarUltima();
+        System.out.println("Elimina el primer elemento");
+        oLista.EliminaPrimera(dato, cuentaBancaria);
     }
     
 }

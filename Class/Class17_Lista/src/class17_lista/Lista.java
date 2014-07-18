@@ -62,6 +62,38 @@ public class Lista {
            return false;
        
        }
+       
+        public void EliminaPrimera(String dato, String cuentaBancaria) {
+        int cont = 0;
+        NodoDeLista nuevo1=raiz;
+
+        Insertar(dato, cuentaBancaria);
+
+        
+        nuevo1.setDato(dato);
+        nuevo1.setCuentaBancaria(cuentaBancaria);
+        NodoDeLista recorrido = raiz.getSiguiente();
+        System.out.println("Listado de todos los elementos de la lista");
+        while (recorrido != null) {
+            System.out.println(recorrido.getDato() + " , la cuenta bancaria es " + recorrido.getCuentaBancaria());
+            recorrido = recorrido.getSiguiente();
+
+        }
+        System.out.println();
+    }
+
+    public void EliminarUltima() {
+        NodoDeLista recorrido = raiz;
+        System.out.println("Listado de todos los elementos de la lista");
+        while (recorrido != null) {
+            System.out.println(recorrido.getDato() + " , la cuenta bancaria es " + recorrido.getCuentaBancaria());
+            recorrido = recorrido.getSiguiente();
+            if (recorrido.getSiguiente() == null) {
+                recorrido = null;
+            }
+        }
+        System.out.println();
+    }
     
     
     
